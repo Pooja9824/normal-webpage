@@ -12,8 +12,8 @@
                 <h1 class="">My pay</h1>
             </div>
             <div class="menu">
-                <a href="my pay 2.html">Home</a>
-                <a href="My pay body.html">Login</a>
+                <a href="index.php">Home</a>
+                <a href="login.php">Login</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>

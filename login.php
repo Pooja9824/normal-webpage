@@ -4,20 +4,22 @@
 <!-- CSS -->
 <link rel="stylesheet" href="css/login.css">
 
-<div class="login-box">
-   <h1>Login</h1>
-   <div class="textbox">
-      <i class="fas fa-lock" aria-hidden="true"></i>
-      <input type="text" placeholder="Username" name="" value="">
-   </div>
+<main>
+   <div class="login-box">
+      <h1>Login</h1>
+      <div class="textbox">
+         <i class="fas fa-lock" aria-hidden="true"></i>
+         <input type="text" placeholder="Username" name="" value="">
+      </div>
 
-   <div class="textbox">
-      <i class="fas fa-lock" aria-hidden="true"></i>
-      <input type="password" placeholder="Password" name="" value="">
-   </div>
+      <div class="textbox">
+         <i class="fas fa-lock" aria-hidden="true"></i>
+         <input type="password" placeholder="Password" name="" value="">
+      </div>
 
-   <input class="btn" type="button" name="" value="Sign in">
-</div>
+      <input class="btn" type="button" name="" value="Sign in">
+   </div>
+</main>
 
 <!-- footer -->
 <?php include 'footer.php'; ?>

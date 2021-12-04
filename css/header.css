@@ -1,16 +1,22 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 header {
   width: 100%;
   line-height: 70px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(bg8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent;
+  position: absolute;
+  top: 0%;
 }
 
 nav {
@@ -28,6 +34,7 @@ nav .logo {
   width: 25%;
   font-size: 30px;
   text-align: center;
+  font-style: inherit;
 }
 nav .menu {
   width: 40%;
