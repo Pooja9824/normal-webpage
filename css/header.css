@@ -69,7 +69,6 @@ nav .menu a {
 }
 
 nav .menu a:hover {
-  letter-spacing: 3px;
   background: white;
   color: black;
   border-bottom-left-radius: 50%;
