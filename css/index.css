@@ -8,44 +8,74 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+}
+
+section {
+  height: 300px;
+  padding: 10px 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 3px black;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  section {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
 }
 
 section h3 {
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 600;
   letter-spacing: 3px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 1px 5px white;
 }
 section h1 {
   margin: 30px 0 20px 0;
   font-size: 55px;
   font-weight: 700;
-  text-shadow: 2px 1px 5px black;
+  text-shadow: 2px 1px 5px cyan;
   text-transform: uppercase;
 }
 section p {
-  font-size: 25px;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
   word-spacing: 2px;
   margin-bottom: 25px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 1px 4px white;
 }
 section a {
   padding: 12px 30px;
-  border-radius: 4px;
+  border-radius: 8px;
   outline: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 1px;
+  transition: 0.5s;
 }
 
 section .btnone {
   background: #f3f0f075;
   color: #000;
+  transition: 0.5s;
 }
+
+section .btnone:hover {
+  background: #f3f0f098;
+  transition: 0.5s;
+}
+
 section .btntwo {
   background: #1c415a;
   color: white;
+  transition: 0.5s;
+}
+
+section .btntwo:hover {
+  background: #20577c;
+  transition: 0.5s;
 }
