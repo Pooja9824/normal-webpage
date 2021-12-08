@@ -17,7 +17,7 @@
          <input type="password" placeholder="Password" name="" value="">
       </div>
 
-      <input class="btn" type="button" name="" value="Sign in">
+      <input class="btn" type="button" name="" value="Login">
    </div>
 </main>
 
