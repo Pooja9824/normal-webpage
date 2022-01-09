@@ -75,3 +75,7 @@ nav .menu a:hover {
   border-top-right-radius: 50%;
   transition: 0.5s;
 }
+
+.menu .icon {
+  display: none;
+}
