@@ -53,13 +53,13 @@ nav .logo:hover {
   transition: 0.5s;
 }
 
-nav .menu {
+.topnav {
   width: 50%;
   display: flex;
   justify-content: space-around;
 }
 
-nav .menu a {
+.topnav a {
   text-decoration: none;
   color: white;
   padding-left: 2%;
@@ -68,7 +68,7 @@ nav .menu a {
   transition: 0.5s;
 }
 
-nav .menu a:hover {
+.topnav a:hover {
   background: white;
   color: black;
   border-bottom-left-radius: 50%;
@@ -76,6 +76,6 @@ nav .menu a:hover {
   transition: 0.5s;
 }
 
-.menu .icon {
+.topnav .icon {
   display: none;
 }
