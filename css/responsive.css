@@ -1,25 +1,25 @@
 @media screen and (max-width: 600px) {
-  .menu.responsive {
-    position: relative;
+  .topnav a:not(:first-child) {
+    display: none;
   }
-  .topnav.responsive .icon img {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .menu.responsive a {
-    float: none;
+  .topnav a.icon {
+    float: right;
     display: block;
-    text-align: left;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .menu a:not(:first-child) {
-    display: none;
+  .topnav.responsive {
+    position: relative;
   }
-  .menu a.icon img {
-    float: right;
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
     display: block;
+    text-align: left;
   }
 }
