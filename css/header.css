@@ -39,6 +39,11 @@ nav:hover {
   transition: 0.5s;
 }
 
+nav .logo a {
+  text-decoration: none;
+  color: white;
+}
+
 nav .logo {
   width: 25%;
   font-size: 30px;
